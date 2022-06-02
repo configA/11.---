@@ -1,0 +1,1182 @@
+
+连接器　版本8.7.7.211123
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\LED.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\TIME.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\STARTUP1_L.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\CLS_INIT.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ
+Input Object File: c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0002h     0024h    0023h      CODE               @start (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0025h     0032h    000eh      CODE               itodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0033h     0037h    0005h      CODE               _LED_init (c:\users\林斐\desktop\11.机械臂\project\LED.OBJ)
+     00h     0038h     003bh    0004h      CODE               @time2_code (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     003ch     003fh    0004h      CODE               @UART_code (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0040h     0095h    0056h      CODE               _time2 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0096h     010dh    0078h      CODE               _UART (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     010eh     0116h    0009h      CODE               _send_char_unsigned (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     0117h     0119h    0003h      CODE               _IIC_delay2us (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     011ah     011fh    0006h      CODE               _IIC_delay5us (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0120h     0135h    0016h      CODE               @builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0136h     0160h    002bh      CODE               @builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0161h     0166h    0006h      CODE               _IIC_init (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0167h     019ah    0034h      CODE               @builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     019bh     01cfh    0035h      CODE               _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01d0h     01eah    001bh      CODE               ltofaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     01ebh     0202h    0018h      CODE               @builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0203h     0242h    0040h      CODE               _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0243h     0280h    003eh      CODE               @builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0281h     02afh    002fh      CODE               _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     02b0h     02e3h    0034h      CODE               _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     02e4h     02e9h    0006h      CODE               _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     02eah     02f0h    0007h      CODE               _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     02f1h     032ch    003ch      CODE               _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     032dh     033ch    0010h      CODE               @crom (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     033dh     0778h    043ch      CODE               @crom (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0779h     0788h    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0789h     0791h    0009h      CODE               _send_char (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     0792h     07a0h    000fh      CODE               _send_buff (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     07a1h     07d7h    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     07d8h     08a5h    00ceh      CODE               _Int2String (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     08a6h     0908h    0063h      CODE               _PWM_Change_3 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     0909h     096dh    0065h      CODE               _PWM_Change_2 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     096eh     09d2h    0065h      CODE               _PWM_Change_1 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     09d3h     09e0h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     09e1h     09f7h    0017h      CODE               _delay_ms (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     09f8h     0a5ah    0063h      CODE               _PWM_Change_0 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     0a5bh     0cf6h    029ch      CODE               _Control_Angle (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0cf7h     0d3ah    0044h      CODE               _PWM_Period_Init (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     0d3bh     0d4bh    0011h      CODE               _time2_Init (c:\users\林斐\desktop\11.机械臂\project\TIME.OBJ)
+     00h     0d4ch     0d4eh    0003h      CODE               _key_Init (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     0d4fh     0d60h    0012h      CODE               _inituart (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     0d61h     0d6ch    000ch      CODE               _Cls_init (c:\users\林斐\desktop\11.机械臂\project\CLS_INIT.OBJ)
+     00h     0d6dh     0daeh    0042h      CODE               _main (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0dafh     0db7h    0009h      CODE               _send_char1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     0db8h     0dc6h    000fh      CODE               _send_buff1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     0dc7h     0de5h    001fh      CODE               _get_buff1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     0de6h     0e04h    001fh      CODE               _get_buff (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     0e05h     0ec5h    00c1h      CODE               _usart1_niming_report (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0ec6h     0f2fh    006ah      CODE               _usart1_report_imu (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0f30h     0f59h    002ah      CODE               _mpu6050_send_data (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0f5ah     0f63h    000ah      CODE               _i2_tz (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0f64h     0f8ah    0027h      CODE               _i2_js (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0f8bh     0fach    0022h      CODE               _i2_fs (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0fadh     0fb7h    000bh      CODE               _i2_qs (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0fb8h     0ff7h    0040h      CODE               _i2creads (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     0ff8h     1003h    000ch      CODE               _i2cread (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1004h     104dh    004ah      CODE               _readBits (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     104eh     1061h    0014h      CODE               _getDeviceID (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1062h     1079h    0018h      CODE               _i2cwrite (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     107ah     10a8h    002fh      CODE               _writeBit (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     10a9h     10fch    0054h      CODE               _writeBits (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     10fdh     1119h    001dh      CODE               _initMPU6050 (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     111ah     1130h    0017h      CODE               _GetData (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1131h     1146h    0016h      CODE               _getFIFOCount (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1147h     118dh    0047h      CODE               _xdmpUpdates (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     118eh     11edh    0060h      CODE               _loadcfgupd (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     11eeh     125eh    0071h      CODE               _loadfirmware (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     125fh     1284h    0026h      CODE               _readBit (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1285h     13dch    0158h      CODE               _dmpInitialize (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     13ddh     15f0h    0214h      CODE               _Float2String (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     15f1h     1622h    0032h      CODE               _fabs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1623h     1d98h    0776h      CODE               _atan2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1d99h     1dech    0054h      CODE               _frexp2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1dedh     1e92h    00a6h      CODE               _sqrt (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1e93h     1e9dh    000bh      CODE               _readdmp (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     1e9eh     1ebch    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1ebdh     1f1bh    005fh      CODE               _String2Int (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     1f1ch     1f2ah    000fh      CODE               _send_buff_unsigned (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     1f2bh     1f43h    0019h      CODE               _key_Scan (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     1f44h     1fb4h    0071h      CODE               @ROMDATA_BASE (c:\users\林斐\desktop\11.机械臂\project\STARTUP1_L.OBJ)
+     00h     1fb5h     1fcfh    001bh      CODE               _inituart1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     01h     0000h     056eh    056fh      CODE               _asin (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     01h     056fh     0bb6h    0648h      CODE               _MUP_6060_READ (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     0080h     0080h    0001h      DATA     189       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     225       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     214       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     326       @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     310       @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     267       @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     254       @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     58        @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     008dh    0006h      DATA     219       ftdata1 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008eh     0090h    0003h      DATA     164       dtdata (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0091h     0097h    0007h      DATA     88.857    ftdata2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0001h      DATA     10        @data_rb3c (isr:ra~rh)
+     00h     0099h     0099h    0001h      DATA     8         @data_rc3c (isr:ra~rh)
+     00h     009ah     009ah    0001h      DATA     13        @data_ra3c (isr:ra~rh)
+     00h     009bh     009bh    0001h      DATA     2         @data_r138 (isr:ra~rh)
+     00h     009ch     009ch    0001h      DATA     2         @data_r238 (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     9         @data_rb38 (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     9         @data_rc38 (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     3         @data_ra38 (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     00a1h     00a1h    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     00f5h     00f5h    0001h      DATA     28        @HCCINIT_Bluetooth (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00f6h     00f7h    0002h      DATA     24        @HCCINIT_pos2 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00f8h     00f9h    0002h      DATA     21        @HCCINIT_pos1 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00fah     00fbh    0002h      DATA     10        @HCCINIT_pos3 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00fch     00fdh    0002h      DATA     9         @HCCINIT_pos0 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00feh     00ffh    0002h      DATA     5         @HCCINIT_mechanical_delay (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00d8h     00dah    0003h      DATA     7         @HCCINIT_q2 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00dbh     00ddh    0003h      DATA     7         @HCCINIT_q1 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00deh     00e0h    0003h      DATA     5         @HCCINIT_q3 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00e1h     00e3h    0003h      DATA     5         @HCCINIT_q0 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00e4h     00e5h    0002h      DATA     5         @HCCINIT_mpu6050_delay (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00e6h     00e8h    0003h      DATA     4         @HCCINIT_Pwm_angle (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     01h     00e9h     00e9h    0001h      DATA     3         @HCCINIT_i (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00eah     00ebh    0002h      DATA     3         @HCCINIT_time2_count (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00ech     00edh    0002h      DATA     2         @HCCINIT_pos3_old (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00eeh     00efh    0002h      DATA     2         @HCCINIT_pos2_old (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00f0h     00f1h    0002h      DATA     2         @HCCINIT_pos1_old (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00f2h     00f3h    0002h      DATA     2         @HCCINIT_pos0_old (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00f4h     00f6h    0003h      DATA     2         @HCCINIT_yaw (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00f7h     00f9h    0003h      DATA     2         @HCCINIT_roll (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00fah     00fch    0003h      DATA     2         @HCCINIT_pitch (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00fdh     00fdh    0001h      DATA     1         @HCCINIT_zd (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     01h     00feh     00feh    0001h      DATA     12        @HCCINIT0_ack (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     01h     00ffh     00ffh    0001h      DATA     2         @data_r338 (isr:ra~rh)
+     02h     0080h     008fh    0010h      DATA     1         @HCCINIT_quat (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     02h     0090h     00b9h    002ah      DATA     0.3809    @HCCINIT_dmpdatas (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     02h     00bah     00ebh    0032h      DATA     0         @HCCINIT_linshi (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     02h     00ech     00edh    0002h      DATA     3         @HCCINIT0_errno (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     02h     00eeh     00eeh    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     02h     00efh     00efh    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     02h     00f0h     00f0h    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     02h     00f1h     00f1h    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     02h     00f2h     00f2h    0001h      DATA     2         @data_r73c (isr:ra~rh)
+     03h     0080h     00b1h    0032h      DATA     0         @HCCINIT_buff_text (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00dah     00dah    0000h      LOCAL    0         _key_Scan (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     00d8h     00d9h    0002h      LOCAL    29        _delay_ms (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     00d7h     00d7h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d8h     00d9h    0002h      LOCAL    2         _send_buff_unsigned (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00d7h     00d7h    0001h      LOCAL    1         _send_char_unsigned (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00a2h     00a2h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00e3h     00e4h    0002h      LOCAL    4         _String2Int (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     00d7h     00e2h    000ch      LOCAL    3.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         @dummy56 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _time2 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         @dummy60 (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00a5h     00d6h    0032h      LOCAL    1.04      _UART (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00a2h     00a4h    0003h      LOCAL    2         _get_buff (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00a3h     00a4h    0002h      LOCAL    18        _send_buff (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00a2h     00a2h    0001h      LOCAL    1         _send_char (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00a2h     00a4h    0003h      LOCAL    2         _get_buff1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     00a3h     00a4h    0002h      LOCAL    3         _send_buff1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     00a2h     00a2h    0001h      LOCAL    1         _send_char1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     01h     0080h     0093h    0014h      LOCAL    8.1       _MUP_6060_READ (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00d7h     00d8h    0002h      LOCAL    7         _PWM_Change_0 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_itod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d8h    0002h      LOCAL    11        _PWM_Change_1 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     00e3h     00e4h    0002h      LOCAL    1         _getFIFOCount (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00dah     00e2h    0009h      LOCAL    3.7778    _i2creads (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _i2_qs (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _IIC_delay2us (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _IIC_delay5us (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d8h    0002h      LOCAL    3         _i2_fs (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d9h    0003h      LOCAL    3         _i2_js (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _i2_tz (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e3h     00e5h    0003h      LOCAL    6.6667    _i2cread (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e6h     00e9h    0004h      LOCAL    10.25     _writeBit (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d9h     00dah    0002h      LOCAL    13.5      _i2cwrite (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e3h     00e4h    0002h      LOCAL    2         _readdmp (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_ltof (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00e8h     00f4h    000dh      LOCAL    26.846    _asin (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00e0h     00e7h    0008h      LOCAL    6         _sqrt (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d7h     00dfh    0009h      LOCAL    2.5556    _frexp2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00dbh     00eah    0010h      LOCAL    36.25     _atan2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d7h     00dah    0004h      LOCAL    4.75      _fabs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00dfh     00e8h    000ah      LOCAL    10.7      _Float2String (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     00d7h     00deh    0008h      LOCAL    11.125    _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00e8h     00e8h    0000h      LOCAL    0         @dummy (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00e8h     00e8h    0000h      LOCAL    0         _main (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _Cls_init (c:\users\林斐\desktop\11.机械臂\project\CLS_INIT.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _inituart (c:\users\林斐\desktop\11.机械臂\project\UART0.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _key_Init (c:\users\林斐\desktop\11.机械臂\project\KEY.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _LED_init (c:\users\林斐\desktop\11.机械臂\project\LED.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _time2_Init (c:\users\林斐\desktop\11.机械臂\project\TIME.OBJ)
+     00h     00d7h     00d7h    0000h      LOCAL    0         _PWM_Period_Init (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     00d7h     00d8h    0002h      LOCAL    10        _PWM_Change_2 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     00d7h     00d8h    0002h      LOCAL    5         _PWM_Change_3 (c:\users\林斐\desktop\11.机械臂\project\PWM.OBJ)
+     00h     00e8h     00e8h    0000h      LOCAL    0         _Control_Angle (c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ)
+     00h     00dfh     00e7h    0009h      LOCAL    6.6667    _Int2String (c:\users\林斐\desktop\11.机械臂\project\INT2STRING.OBJ)
+     00h     00ech     00f1h    0006h      LOCAL    0.5       _dmpInitialize (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e6h     00eah    0005h      LOCAL    1.4       _readBit (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e6h     00ebh    0006h      LOCAL    3.5       _readBits (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00dbh     00e3h    0009h      LOCAL    4.3333    _loadfirmware (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00dbh     00dfh    0005h      LOCAL    4.6       _loadcfgupd (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e6h     00eah    0005h      LOCAL    7.4       _writeBits (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00dbh     00deh    0004h      LOCAL    3.75      _xdmpUpdates (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00e3h     00e5h    0003h      LOCAL    0.6666    _GetData (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00ebh     00ebh    0000h      LOCAL    0         _initMPU6050 (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00ech     00ech    0001h      LOCAL    2         _getDeviceID (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d8h     00efh    0018h      LOCAL    1         _mpu6050_send_data (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     01h     0080h     00a9h    002ah      LOCAL    0.8095    _usart1_niming_report (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     01h     00aah     00d7h    002eh      LOCAL    0.7826    _usart1_report_imu (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _inituart1 (c:\users\林斐\desktop\11.机械臂\project\UART1.OBJ)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _IIC_init (c:\users\林斐\desktop\11.机械臂\project\6050-DMP.OBJ)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_ultof (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_uitod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d7h     00d7h    0000h      ILOCAL   0         _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     00f5h              _Bluetooth
+     0d61h              _Cls_init
+     0a5bh              _Control_Angle
+     077ah              _Crom2Prom
+     0779h              _Crom2PromNext
+     13ddh              _Float2String
+     00e8h              _Float2String_2
+     111ah              _GetData
+     0117h              _IIC_delay2us
+     011ah              _IIC_delay5us
+     0161h              _IIC_init
+     07d8h              _Int2String
+     00dfh              _Int2String_2
+     0033h              _LED_init
+     256fh              _MUP_6060_READ
+     09f8h              _PWM_Change_0
+     096eh              _PWM_Change_1
+     0909h              _PWM_Change_2
+     08a6h              _PWM_Change_3
+     0cf7h              _PWM_Period_Init
+     01e6h              _Pwm_angle
+     1ebdh              _String2Int
+     0096h              _UART
+     09d5h              __DELAYY0_isr00
+     09d5h              __DELAYY1_isr00
+     09d4h              __DELAYY2_isr00
+     09d4h              __DELAYY3_isr00
+     09d3h              __DELAYY4_isr00
+     09d3h              __DELAYY5_isr00
+     01feh              _ack
+     2000h              _asin
+     00f2h              _asin_2
+     1623h              _atan2
+     0380h              _buff_text
+     07a1h              _builtin_holtek_divmodhi4_isr00
+     0245h              _builtin_holtek_dtadd
+     01f6h              _builtin_holtek_dtdecode1
+     01ebh              _builtin_holtek_dtdecode2
+     02f1h              _builtin_holtek_dtdiv
+     02eah              _builtin_holtek_dtinf
+     0203h              _builtin_holtek_dtmul
+     02b0h              _builtin_holtek_dtnorm
+     0243h              _builtin_holtek_dtsub
+     01feh              _builtin_holtek_dtzero
+     0201h              _builtin_holtek_dtzero1
+     008bh              _builtin_holtek_exp1
+     0094h              _builtin_holtek_exp2
+     008dh              _builtin_holtek_floatflag
+     0169h              _builtin_holtek_ftadd
+     012ah              _builtin_holtek_ftdecode1
+     0120h              _builtin_holtek_ftdecode2
+     02e4h              _builtin_holtek_ftinf
+     019bh              _builtin_holtek_ftmul
+     0281h              _builtin_holtek_ftnorm
+     0136h              _builtin_holtek_ftol
+     0167h              _builtin_holtek_ftsub
+     0132h              _builtin_holtek_ftzero
+     0134h              _builtin_holtek_ftzero1
+     0025h              _builtin_holtek_itod
+     01d0h              _builtin_holtek_ltof
+     0088h              _builtin_holtek_mant1
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     1e9eh              _builtin_holtek_mulsi3_isr00
+     0095h              _builtin_holtek_prod
+     008ch              _builtin_holtek_signs
+     07aah              _builtin_holtek_udivmodhi4_isr00
+     002eh              _builtin_holtek_uitod
+     01dfh              _builtin_holtek_ultof
+     09e1h              _delay_ms
+     00d8h              _delay_ms_2
+     1285h              _dmpInitialize
+     033dh              _dmpUpdates
+     0354h              _dmpcfgupddata
+     0290h              _dmpdatas
+     03b4h              _dmpmemorydata
+     02ech              _errno
+     15f1h              _fabs
+     1d99h              _frexp2
+     104eh              _getDeviceID
+     1131h              _getFIFOCount
+     0de6h              _get_buff
+     0dc7h              _get_buff1
+     00a2h              _get_buff_2
+     01e9h              _i
+     0f8bh              _i2_fs
+     0f64h              _i2_js
+     0fadh              _i2_qs
+     0f5ah              _i2_tz
+     0ff8h              _i2cread
+     0fb8h              _i2creads
+     00dbh              _i2creads_2
+     1062h              _i2cwrite
+     00dah              _i2cwrite_2
+     10fdh              _initMPU6050
+     0d4fh              _inituart
+     1fb5h              _inituart1
+     0d4ch              _key_Init
+     1f2bh              _key_Scan
+     02bah              _linshi
+     118eh              _loadcfgupd
+     11eeh              _loadfirmware
+     0d6dh              _main
+     00feh              _mechanical_delay
+     01e4h              _mpu6050_delay
+     0f30h              _mpu6050_send_data
+     01fah              _pitch
+     00fch              _pos0
+     01f2h              _pos0_old
+     00f8h              _pos1
+     01f0h              _pos1_old
+     00f6h              _pos2
+     01eeh              _pos2_old
+     00fah              _pos3
+     01ech              _pos3_old
+     01e1h              _q0
+     01dbh              _q1
+     01d8h              _q2
+     01deh              _q3
+     0280h              _quat
+     125fh              _readBit
+     1004h              _readBits
+     00ebh              _readBits_2
+     1e93h              _readdmp
+     01f7h              _roll
+     0792h              _send_buff
+     0db8h              _send_buff1
+     1f1ch              _send_buff_unsigned
+     0789h              _send_char
+     0dafh              _send_char1
+     010eh              _send_char_unsigned
+     1dedh              _sqrt
+     0040h              _time2
+     0d3bh              _time2_Init
+     01eah              _time2_count
+     0e05h              _usart1_niming_report
+     0194h              _usart1_niming_report_2
+     0ec6h              _usart1_report_imu
+     01aah              _usart1_report_imu_2
+     107ah              _writeBit
+     00e9h              _writeBit_2
+     10a9h              _writeBits
+     00eah              _writeBits_2
+     1147h              _xdmpUpdates
+     01f4h              _yaw
+     01fdh              _zd
+     009bh              r138
+     00a0h              r13c
+     009ch              r238
+     00a1h              r23c
+     01ffh              r338
+     02eeh              r33c
+     02efh              r43c
+     02f0h              r53c
+     02f1h              r63c
+     02f2h              r73c
+     0080h              ra
+     009fh              ra38
+     009ah              ra3c
+     0081h              rb
+     009dh              rb38
+     0098h              rb3c
+     0082h              rc
+     009eh              rc38
+     0099h              rc3c
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     1f44h              startup_value_1
+
+     Address            Public by Value
+     0025h              _builtin_holtek_itod
+     002eh              _builtin_holtek_uitod
+     0033h              _LED_init
+     0040h              _time2
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              _builtin_holtek_mant1
+     008bh              _builtin_holtek_exp1
+     008ch              _builtin_holtek_signs
+     008dh              _builtin_holtek_floatflag
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     0094h              _builtin_holtek_exp2
+     0095h              _builtin_holtek_prod
+     0096h              _UART
+     0098h              rb3c
+     0099h              rc3c
+     009ah              ra3c
+     009bh              r138
+     009ch              r238
+     009dh              rb38
+     009eh              rc38
+     009fh              ra38
+     00a0h              r13c
+     00a1h              r23c
+     00a2h              _get_buff_2
+     00d8h              _delay_ms_2
+     00dah              _i2cwrite_2
+     00dbh              _i2creads_2
+     00dfh              _Int2String_2
+     00e8h              _Float2String_2
+     00e9h              _writeBit_2
+     00eah              _writeBits_2
+     00ebh              _readBits_2
+     00f2h              _asin_2
+     00f5h              _Bluetooth
+     00f6h              _pos2
+     00f8h              _pos1
+     00fah              _pos3
+     00fch              _pos0
+     00feh              _mechanical_delay
+     010eh              _send_char_unsigned
+     0117h              _IIC_delay2us
+     011ah              _IIC_delay5us
+     0120h              _builtin_holtek_ftdecode2
+     012ah              _builtin_holtek_ftdecode1
+     0132h              _builtin_holtek_ftzero
+     0134h              _builtin_holtek_ftzero1
+     0136h              _builtin_holtek_ftol
+     0161h              _IIC_init
+     0167h              _builtin_holtek_ftsub
+     0169h              _builtin_holtek_ftadd
+     0194h              _usart1_niming_report_2
+     019bh              _builtin_holtek_ftmul
+     01aah              _usart1_report_imu_2
+     01d0h              _builtin_holtek_ltof
+     01d8h              _q2
+     01dbh              _q1
+     01deh              _q3
+     01dfh              _builtin_holtek_ultof
+     01e1h              _q0
+     01e4h              _mpu6050_delay
+     01e6h              _Pwm_angle
+     01e9h              _i
+     01eah              _time2_count
+     01ebh              _builtin_holtek_dtdecode2
+     01ech              _pos3_old
+     01eeh              _pos2_old
+     01f0h              _pos1_old
+     01f2h              _pos0_old
+     01f4h              _yaw
+     01f6h              _builtin_holtek_dtdecode1
+     01f7h              _roll
+     01fah              _pitch
+     01fdh              _zd
+     01feh              _builtin_holtek_dtzero
+     01feh              _ack
+     01ffh              r338
+     0201h              _builtin_holtek_dtzero1
+     0203h              _builtin_holtek_dtmul
+     0243h              _builtin_holtek_dtsub
+     0245h              _builtin_holtek_dtadd
+     0280h              _quat
+     0281h              _builtin_holtek_ftnorm
+     0290h              _dmpdatas
+     02b0h              _builtin_holtek_dtnorm
+     02bah              _linshi
+     02e4h              _builtin_holtek_ftinf
+     02eah              _builtin_holtek_dtinf
+     02ech              _errno
+     02eeh              r33c
+     02efh              r43c
+     02f0h              r53c
+     02f1h              _builtin_holtek_dtdiv
+     02f1h              r63c
+     02f2h              r73c
+     033dh              _dmpUpdates
+     0354h              _dmpcfgupddata
+     0380h              _buff_text
+     03b4h              _dmpmemorydata
+     0779h              _Crom2PromNext
+     077ah              _Crom2Prom
+     0789h              _send_char
+     0792h              _send_buff
+     07a1h              _builtin_holtek_divmodhi4_isr00
+     07aah              _builtin_holtek_udivmodhi4_isr00
+     07d8h              _Int2String
+     08a6h              _PWM_Change_3
+     0909h              _PWM_Change_2
+     096eh              _PWM_Change_1
+     09d3h              __DELAYY5_isr00
+     09d3h              __DELAYY4_isr00
+     09d4h              __DELAYY3_isr00
+     09d4h              __DELAYY2_isr00
+     09d5h              __DELAYY1_isr00
+     09d5h              __DELAYY0_isr00
+     09e1h              _delay_ms
+     09f8h              _PWM_Change_0
+     0a5bh              _Control_Angle
+     0cf7h              _PWM_Period_Init
+     0d3bh              _time2_Init
+     0d4ch              _key_Init
+     0d4fh              _inituart
+     0d61h              _Cls_init
+     0d6dh              _main
+     0dafh              _send_char1
+     0db8h              _send_buff1
+     0dc7h              _get_buff1
+     0de6h              _get_buff
+     0e05h              _usart1_niming_report
+     0ec6h              _usart1_report_imu
+     0f30h              _mpu6050_send_data
+     0f5ah              _i2_tz
+     0f64h              _i2_js
+     0f8bh              _i2_fs
+     0fadh              _i2_qs
+     0fb8h              _i2creads
+     0ff8h              _i2cread
+     1004h              _readBits
+     104eh              _getDeviceID
+     1062h              _i2cwrite
+     107ah              _writeBit
+     10a9h              _writeBits
+     10fdh              _initMPU6050
+     111ah              _GetData
+     1131h              _getFIFOCount
+     1147h              _xdmpUpdates
+     118eh              _loadcfgupd
+     11eeh              _loadfirmware
+     125fh              _readBit
+     1285h              _dmpInitialize
+     13ddh              _Float2String
+     15f1h              _fabs
+     1623h              _atan2
+     1d99h              _frexp2
+     1dedh              _sqrt
+     1e93h              _readdmp
+     1e9eh              _builtin_holtek_mulsi3_isr00
+     1ebdh              _String2Int
+     1f1ch              _send_buff_unsigned
+     1f2bh              _key_Scan
+     1f44h              startup_value_1
+     1fb5h              _inituart1
+     2000h              _asin
+     256fh              _MUP_6060_READ
+
+Warning(L3009) : 中断(3CH)的CMG与Main主函数CMG存在相同的子函数: _send_buff
+Warning(L3009) : 中断(3CH)的CMG与Main主函数CMG存在相同的子函数: _send_char
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     1fd0h    99%
+     01h       2000h     0bb7h    36%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     2b87h    17%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0080h    100%
+     01h       0080h     0080h    100%
+     02h       0080h     0073h    89%
+     03h       0080h     0032h    39%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     01a5h    10%
+
+Use Stack Count
+_key_Scan: 2
+_send_buff_unsigned: 1
+_String2Int: 1
+_time2: 0
+_UART: 2
+_MUP_6060_READ: 5
+_main: 4
+_dmpInitialize: 5
+_GetData: 3
+_initMPU6050: 5
+_getDeviceID: 5
+_mpu6050_send_data: 2
+_usart1_report_imu: 2
+
+Call Tree
+    _key_Scan
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+    _send_buff_unsigned
+        _send_char_unsigned (0)
+        _Crom2Prom (0)
+    _String2Int
+        _Crom2Prom (0)
+        _builtin_holtek_mulsi3_isr00 (0)
+    @dummy56
+        _time2 (0)
+    @dummy60
+        _UART (0)
+            _get_buff (1)
+            _send_buff (1)
+                _send_char (2)
+                _Crom2Prom (2)
+            _get_buff1 (1)
+            _send_buff1 (1)
+                _send_char1 (2)
+                _Crom2Prom (2)
+    _MUP_6060_READ
+        _PWM_Change_0 (0)
+            _builtin_holtek_itod (1)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+        _PWM_Change_1 (0)
+            _builtin_holtek_itod (1)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+        _getFIFOCount (0)
+            _i2creads (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_js (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _i2cread (0)
+            _i2creads (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_js (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _writeBit (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _readdmp (0)
+            _i2creads (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_js (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _builtin_holtek_ltof (0)
+        _builtin_holtek_ftmul (0)
+            _builtin_holtek_ftdecode (1)
+        _builtin_holtek_ftsubadd (0)
+            _builtin_holtek_ftdecode (1)
+        _asin (0)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _sqrt (1)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _frexp2 (2)
+                _builtin_holtek_dtdiv (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtmul (2)
+                    _builtin_holtek_dtdecode (3)
+            _builtin_holtek_dtdiv (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+        _builtin_holtek_dtmul (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_ftsubadd (0)
+            _builtin_holtek_ftdecode (1)
+        _atan2 (0)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _fabs (1)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+            _builtin_holtek_dtdiv (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+        _send_buff (0)
+            _send_char (1)
+            _Crom2Prom (1)
+        _Float2String (0)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftsubadd (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_divmodhi4_isr00 (1)
+            _Crom2Prom (1)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+    @dummy
+        _main (0)
+            _Cls_init (1)
+                _inituart (2)
+                _key_Init (2)
+                _LED_init (2)
+                _time2_Init (2)
+                _PWM_Period_Init (2)
+            _PWM_Change_0 (1)
+                _builtin_holtek_itod (2)
+                _builtin_holtek_dtmul (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _delay_ms (1)
+                _builtin_holtek_delay_isr00 (2)
+            _PWM_Change_1 (1)
+                _builtin_holtek_itod (2)
+                _builtin_holtek_dtmul (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _PWM_Change_2 (1)
+                _builtin_holtek_itod (2)
+                _builtin_holtek_dtmul (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _PWM_Change_3 (1)
+                _builtin_holtek_itod (2)
+                _builtin_holtek_dtmul (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_dtsubadd (2)
+                    _builtin_holtek_dtdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+            _Control_Angle (1)
+                _PWM_Change_0 (2)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _PWM_Change_1 (2)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _PWM_Change_2 (2)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _PWM_Change_3 (2)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _Int2String (2)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _Crom2Prom (3)
+                _send_buff (2)
+                    _send_char (3)
+                    _Crom2Prom (3)
+    _dmpInitialize
+        _writeBit (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _delay_ms (0)
+            _builtin_holtek_delay_isr00 (1)
+        _i2cwrite (0)
+            _i2_qs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_fs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_tz (1)
+                _IIC_delay5us (2)
+                _IIC_delay2us (2)
+        _i2cread (0)
+            _i2creads (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_js (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _readBit (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+        _readBits (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+        _loadfirmware (0)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+            _i2_qs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_fs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _Crom2Prom (1)
+            _i2_tz (1)
+                _IIC_delay5us (2)
+                _IIC_delay2us (2)
+        _loadcfgupd (0)
+            _Crom2Prom (1)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+            _i2_qs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_fs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_tz (1)
+                _IIC_delay5us (2)
+                _IIC_delay2us (2)
+        _writeBits (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _xdmpUpdates (0)
+            _Crom2Prom (1)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+            _i2_qs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_fs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_tz (1)
+                _IIC_delay5us (2)
+                _IIC_delay2us (2)
+        _getFIFOCount (0)
+            _i2creads (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_js (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+    _GetData
+        _i2creads (0)
+            _i2_qs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_fs (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_js (1)
+                _IIC_delay2us (2)
+                _IIC_delay5us (2)
+            _i2_tz (1)
+                _IIC_delay5us (2)
+                _IIC_delay2us (2)
+    _initMPU6050
+        _writeBits (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+        _writeBit (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+            _i2cwrite (1)
+                _i2_qs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_fs (2)
+                    _IIC_delay2us (3)
+                    _IIC_delay5us (3)
+                _i2_tz (2)
+                    _IIC_delay5us (3)
+                    _IIC_delay2us (3)
+    _getDeviceID
+        _readBits (0)
+            _i2cread (1)
+                _i2creads (2)
+                    _i2_qs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_fs (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_js (3)
+                        _IIC_delay2us (4)
+                        _IIC_delay5us (4)
+                    _i2_tz (3)
+                        _IIC_delay5us (4)
+                        _IIC_delay2us (4)
+    _mpu6050_send_data
+        _usart1_niming_report (0)
+            _Crom2Prom (1)
+            _send_char_unsigned (1)
+    _usart1_report_imu
+        _usart1_niming_report (0)
+            _Crom2Prom (1)
+            _send_char_unsigned (1)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'c:\users\林斐\desktop\11.机械臂\project\MAIN.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 2
